@@ -17,7 +17,7 @@ orgs.newOrg('eclipse-wakaama') {
       allow_update_branch: false,
       delete_branch_on_merge: false,
       dependabot_security_updates_enabled: true,
-      description: "Eclipse Wakaama is a C implementation of the Open Mobile Alliance's LightWeight M2M protocol (LWM2M).",
+      description: "Eclipse Wakaama is a C implementation of the Open Mobile Alliance's LightWeight M2M protocol (LwM2M).",
       homepage: "",
       topics+: [
         "c",
