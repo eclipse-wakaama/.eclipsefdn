@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-wakaama') {
+orgs.newOrg('iot.wakaama', 'eclipse-wakaama') {
   settings+: {
     description: "Eclipse Wakaama is a C implementation of the Open Mobile Alliance's LightWeight M2M protocol (LWM2M)",
     email: "webmaster@eclipse-foundation.org",
